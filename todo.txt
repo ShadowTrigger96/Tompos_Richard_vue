@@ -1,6 +1,6 @@
 to-do:
 1. GitHub repo exam branch klónozása, feladatlap szerinti project mappába:
-    "git clone https://github.com/nits68/jedlik-vue-starter-2024 -b exam Nits_Laszlo_vue_frontend"
+    "git clone https://github.com/nits68/jedlik-vue-starter-2024 -b exam Tompos_Richard_vue"
 2. Belépés a projekt mappába, majd Node.js csomagok telepítése: "npm i",
 3. Források másolása, backend szerver másolása és indítása, ha a backend szerver lokális gépen fut
 4. Starter sablon megnyitása: "code .", vagy helyi menüből, ajánlott bővítmények telepítése/frissítése,
