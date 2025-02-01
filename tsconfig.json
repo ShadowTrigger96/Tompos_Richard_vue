@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "types": [
+      "node"
+    ]
+  },
+  "extends": "./.quasar/tsconfig.json"
+}

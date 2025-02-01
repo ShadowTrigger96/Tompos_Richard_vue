@@ -1,0 +1,37 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.codeActionsOnSave": [
+    "source.fixAll.eslint"
+  ],
+  "editor.mouseWheelZoom": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "eslint.validate": [
+    "typescript",
+    "vue"
+  ],
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.pruneOnFetch": true,
+  "git.autofetch": true,
+  "git.autofetchPeriod": 60,
+  "prettier.printWidth": 120,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.exclude": {
+    "**/package-lock.json": true,
+    "**/*.npmrc": false,
+    "**/.git": false
+  },
+  "workbench.editor.closeOnFileDelete": true
+}

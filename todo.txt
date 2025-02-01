@@ -1,0 +1,46 @@
+to-do:
+1. GitHub repo exam branch klónozása, feladatlap szerinti project mappába:
+    "git clone https://github.com/nits68/jedlik-vue-starter-2024 -b exam Nits_Laszlo_vue_frontend"
+2. Belépés a projekt mappába, majd Node.js csomagok telepítése: "npm i",
+3. Források másolása, backend szerver másolása és indítása, ha a backend szerver lokális gépen fut
+4. Starter sablon megnyitása: "code .", vagy helyi menüből, ajánlott bővítmények telepítése/frissítése,
+5. Új verziókövetés beállítása: ".git" mappa törlése, verziókövetés inicializálása, majd "start" nevű commit készítése.
+6. Minta alakalmazás-route-ok (path: /x*) törlése a router/routes.ts állományból
+7. Minta x*.vue állományok törlése az src/pages és az src/components mappákból
+8. Axios backend szerver beállítása - Base URL és port(ha adott): ".env" állományban
+9. Fordítás indítása: "npm run dev", vagy Ctrl-Shift-B
+
+További teendők tetszőleges, de logikus sorrendben:
+- "1"-oldali "IOne" interface és axios URL-ek, akciómetódusok aktualizálása: src/stores/store.ts
+- "N"-oldali "IMany" interface, URL-ek és akciómetódusok aktualizálása: src/stores/store.ts
+- Egyéb táblához (ha van) "IOther" interface, URL-ek és akciómetódusok készítése: src/stores/store.ts
+- Layout (menük, állapotsor) módosítása/törlése a feladat szerint: src/layouts/MainLayout.vue 
+- Nyitó oldal elkészítése (források beillesztése): src/pages/IndexPage.vue
+- További oldalak elkészítése folyamatosan: src/pages/xyzPage.vue (használd a megfelelő mintákat)
+- Komponensek (pl. dialógusablakok) elkészítése (ha van) (források beillesztése): src/components mappában (használd a megfelelő mintákat)
+- Route-ok módosítása/elkészítése folyamatosan az új oldalakhoz: src/router/routes.ts 
+- Store tisztítása: felesleges változók, akciómetódusok törlése. (src/stores/store.ts)
+- Oldalak, komponensek tisztítása: felesleges metódusok, változók és megjegyzések törlése
+
+Nyomkövetés:
+1. F5 -el indítsad el a nyomkövetést
+2. Helyezd el a töréspontot/töréspontokat a forrásban
+3. A megjelenő böngészőablakban "tevékenykedj" úgy, hogy a breakpoint-ra kerüljön a vezérlés
+4. Vizsgáld meg a változók aktuális értékeit, figyeld meg a végrehajtásra kerülő utasításokat (F10, F11)
+5. Folytasd a nyomkövetést: F5, F10, F11, stb. (lsd. VS Code - Run menüben a funkciókat)
+
+Vue Dev Tools indítása (változók és vue komponensek vizsgálata):
+1. Fordítása leállítása (dev task -> kuka)
+2. quasar.config.ts 83. sorában: "vueDevtools: true," beállítása
+3. Fordítás újraindítása: "npm run dev", vagy Ctrl-Shift-B
+
+Saját Code Snippets-ek:
+1. Quasar class-ok: "í" -> Ctrl-Space
+2. Quasar UI elemek: "ű" -> Ctrl-Space
+3. Vue3: "ú" -> Ctrl-Space
+
+Hiba esetén "ujaraindítás":
+1. Terminál panel megjelenítése ha nem látszik: Ctrl-ö
+2. Terminál taskok bezárása (Kill -> Kuka ikonnal)
+3. F1 -> "Developer: Reload window"
+4. Fordítás újraindítása: "npm run dev", vagy Ctrl-Shift-B
